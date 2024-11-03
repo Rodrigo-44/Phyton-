@@ -1,0 +1,9 @@
+#Programa para hallar los multiplos de 3 hasta un limite. 
+num = 0
+    new_value = num
+
+    while new_value < limit:
+        print(num, end=' ')
+        num += 3
+        new_value += num
+    print(num)
