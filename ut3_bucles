@@ -1,5 +1,6 @@
 #Programa para hallar los multiplos de 3 hasta un limite. 
-num = 0
+def run(limit: int) -> None:
+    num = 0
     new_value = num
 
     while new_value < limit:
@@ -7,3 +8,10 @@ num = 0
         num += 3
         new_value += num
     print(num)
+
+
+# DO NOT TOUCH THE CODE BELOW
+if __name__ == '__main__':
+    import vendor
+
+    vendor.launch(run)
